@@ -1,0 +1,8 @@
+config BKP_FS
+	tristate "Bkpfs stackable file system (EXPERIMENTAL)"
+	help
+	  Bkpfs is a stackable file system which simply passes its
+	  operations to the lower layer.  It is designed as a useful
+	  template for developing or debugging other stackable file systems,
+	  and more (see Documentation/filesystems/bkpfs.txt).  See
+	  <http://bkpfs.filesystems.org/> for details.
